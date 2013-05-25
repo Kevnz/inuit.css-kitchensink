@@ -30,7 +30,7 @@ layout: default
 	    <% end %>
 	    </ul>
 
-	    <h4>Base</h4>
+		<h4>Base</h4>
 	    <ul class="block-list">
 	    <% for base in @getCollection("bases").toJSON(): %>
 	        <li>
@@ -41,7 +41,7 @@ layout: default
 	    <% end %>
 	    </ul>
 
-	    <h4>Generics</h4>
+		<h4>Generics</h4>
 	    <ul class="block-list">
 	    <% for generic in @getCollection("generics").toJSON(): %>
 	        <li>

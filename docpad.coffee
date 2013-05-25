@@ -76,13 +76,13 @@ docpadConfig = {
 	collections:
 
 		objects: (database) ->
-            database.findAllLive({partial:true, isObject:true})
+			database.findAllLive({partial:true, isObject:true})
 
 		generics: (database) ->
-            database.findAllLive({partial:true, isGeneric:true})
+			database.findAllLive({partial:true, isGeneric:true})
 
-		 bases: (database) ->
-            database.findAllLive({partial:true, isBase:true})
+		bases: (database) ->
+			database.findAllLive({partial:true, isBase:true})
 
 	# =================================
 	# DocPad Events
